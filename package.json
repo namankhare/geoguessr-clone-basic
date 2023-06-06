@@ -1,0 +1,15 @@
+{
+  "name": "geoguessr-clone-by-naman-khare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-streetview": "^1.1.1"
+  }
+}

@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+ 
+#pano {
+  float: left;
+  height: 100%;
+  width: 100%;
+} 
+.result{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 3;
+  display: none;
+} 
+#map2 {
+  height: 75%;
+  width: 100%
+ }
+
+#map{ 
+    position: absolute;
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+    display: block;
+    z-index: 3;
+    bottom: 60px;
+    right: 0;
+    border-radius: 8px;
+    transition: all 0.2s ease-in; 
+}
+.js-timeout{
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  z-index: 2;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0.6rem 2.5rem;
+  border-radius: 12px;
+  opacity: 0.7;
+}
+ #map:hover { 
+  height: 400px;
+  width: 600px; 
+  transition: width 0.2s, height 0.2s ease-out;
+}
+.max-box > *{ 
+  opacity: 0.5;
+  
+}
+.max-box:hover > * { 
+  opacity: 1; 
+}
+.submit-btn{
+  position: absolute;
+  width: 300px;
+  bottom: 20px;
+  right: 0;
+  display: block;
+  z-index: 3; 
+  border: none;
+  border-radius: 8px;
+  background-color: #F45050;
+  transition: all 0.2s ease-in; 
+  color: white; 
+} 
+.submit-btn:hover{
+  transition: width 0.2s, height 0.2s ease-out;
+}
+#direction {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 3;
+}
